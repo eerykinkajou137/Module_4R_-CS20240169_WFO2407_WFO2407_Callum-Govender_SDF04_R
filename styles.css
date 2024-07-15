@@ -19,6 +19,11 @@ body {
     border-radius: 10px;
     width: 80%;
     position: relative; 
+
+    display: flex;
+    flex-direction: row;
+    -ms-flex-item-align: center;
+    justify-content: space-around;
   }
   
   .pastry {
@@ -26,7 +31,7 @@ body {
     padding: 20px;
     border-radius: 50%;
     font-size: 18px;
-    position: absolute; 
+    /* I sat for an hour and for an hour failed to see this  (position: absolute;) */
   }
   
   .pastry img {
@@ -57,4 +62,3 @@ body {
     right: 0;
     background-color: #7fa8f0; 
   }
-  
